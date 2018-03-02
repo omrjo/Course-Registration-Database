@@ -1,0 +1,47 @@
+Q1.
+
+select pid,title,summary,data_of_submission,previus_pro,pname
+from project,professor
+where pssn=ssn and aqyear='2015'
+
+Q2.
+
+select pid,title,summary,data_of_submission,previus_pro,pname
+from project,professor
+where pssn=ssn
+minus
+select pid,title,summary,data_of_submission,previus_pro,pname
+from choose,project,professor
+where pid=pro_id and pssn=ssn
+
+
+Q3.
+select pro_id,sum(mark)/count(*) as final_mark
+from attribute_mark,professor
+where ssn=pssn  
+group by pro_id
+
+
+
+Q4.
+
+select fname,mname,lname
+from student
+minus
+select fname,mname,lname
+from choose,student
+where st_id=s_id
+
+
+Q5.
+
+select title,previus_pro,pdate,report_no
+from project,presentation,report
+where previus_pro in
+(select previus_pro
+from project
+where previus_pro is not null
+and previus_pro=presentation.pro_id 
+and previus_pro=report.pro_id )
+
+

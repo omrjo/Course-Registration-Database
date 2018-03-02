@@ -1,0 +1,214 @@
+INSERT INTO project VALUES 
+('001','2182492740','database have ER model we are drawing a shapes  and realtion model whith attribute','Database',to_date('2015/11/03','YYYY/MM/DD'),'00033423ADGDFHDB768','A database is an organized collection of data.[1] It is the collection of schemas, tables, queries, reports, views and other objects.The data is typically organized to model aspects of reality in a way that supports processes requiring information,such as modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.','2014',null);
+
+
+INSERT INTO project VALUES 
+('002','2156437878','operating system is a course about how OS work in computer','Operating System',to_date('2015/10/15','YYYY/MM/DD'),'3255006AVSSYWQ222','An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs.The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function.','2015','001');
+
+
+INSERT INTO project VALUES 
+('003','2109985482','anlysis algorithm is to find the best way to run some algorithm','Anlysis Algorithm',to_date('2015/11/27','YYYY/MM/DD'),'5343656BNMTSDFVS543AA','In computer science, the analysis of algorithms is the determination of the amount of resources (such as time and storage)necessary to execute them. Most algorithms are designed to work with inputs of arbitrary length.Usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity)or storage locations (space complexity). ','2015',null);
+
+
+INSERT INTO project VALUES 
+('004','2182492740','data structure is some data type we use it in programming','Data Structure',to_date('2015/9/06','YYYY/MM/DD'),'689384DBDHGFJJ5433MM','In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity.In comparison, a data structure is a concrete implementation of the contract provided by an ADT.','2014',null);
+
+
+INSERT INTO project VALUES 
+('005','2109985482','computer organization is to know what the basic components of computer system ','Computer Organization',to_date('2015/10/30','YYYY/MM/DD'),'HFNFN89988943732JSSR','In electronics engineering and computer engineering, microarchitecture,also called computer organization and sometimes abbreviated as µarch or uarch, is the way a given instruction set architecture (ISA)is implemented in a particular processor.','2015',004);
+
+INSERT INTO project VALUES 
+('006','2156437878','computer programming is collections of codes to construct program','Computer Programming',to_date('2015/12/18','YYYY/MM/DD'),'93805SAVNTKRDWW6566','Computer programming (often shortened to programming, sometimes called coding) is a process that leads from an original formulation of a computing problem to executable computer programs.','2015','003');
+
+
+
+INSERT INTO student VALUES 
+('4348932345','001','ali','o','mohammed','m',to_date('1993/03/02','YYYY/MM/DD'),'0504832987','3.30');
+INSERT INTO student VALUES 
+('4354389068','002','samer','e','nasser','m',to_date('1994/06/07','YYYY/MM/DD'),'0556768343','4.50');
+INSERT INTO student VALUES 
+('4321469059','003','hammam','m','jamal','m',to_date('1993/10/15','YYYY/MM/DD'),'0535341239','3.90');
+INSERT INTO student VALUES 
+('4394467321','006','omar','k','salem','m',to_date('1993/10/27','YYYY/MM/DD'),'0545783219','4.00');
+
+
+
+
+INSERT INTO professor VALUES
+('2182492740','khaled saeed','riyadh-malaz-street5','0546658749','m');
+INSERT INTO professor VALUES
+('2156437878','mohamed omar','riyadh-oliya-street20','0509854765','s');
+INSERT INTO professor VALUES
+('2109985482','waleed jaber','riyadh-king fahed road','0537688932','m');
+
+
+
+INSERT INTO presentation VALUES
+('001','relation model',to_date('2015/03/02','YYYY/MM/DD'),'14:30','The relational model (RM) for database management is an approach to managing data using a structure and language consistent with first-order predicate logic,first described in 1969 by Edgar F. Codd.[1][2] In the relational model of a database, all data is represented in terms of tuples, grouped into relations.A database organized in terms of the relational model is a relational database.');
+
+
+
+INSERT INTO presentation VALUES
+('002','memory',to_date('2015/05/06','YYYY/MM/DD'),'13:00','In computing, memory refers to the computer hardware devices used to store information for immediate use in a computer;it is synonymous with the term "primary storage".');
+
+
+
+INSERT INTO presentation VALUES
+('003','merge sort',to_date('2015/04/15','YYYY/MM/DD'),'09:20','In computer science, merge sort (also commonly spelled mergesort) is an efficient,general-purpose, comparison-based sorting algorithm.Most implementations produce a stable sort, which means that the implementation preserves the input order of equal elements in the sorted output');
+
+
+
+INSERT INTO presentation VALUES
+('004','linked list',to_date('2015/08/13','YYYY/MM/DD'),'11:20','linked list is a data structure consisting of a group of nodes which together represent a sequence.Under the simplest form, each node is composed of data and a reference (in other words, a link) to the next node in the sequence;more complex variants add additional links. This structure allows for efficient insertion or removal of elements from any position in the sequence.');
+
+
+
+INSERT INTO presentation VALUES
+('005','digital logic',to_date('2015/07/10','YYYY/MM/DD'),'12:00','Digital, or boolean, logic is the fundamental concept underpinning all modern computer systems.Put simply, it’s the system of rules that allow us to make extremely complicated decisions based on relatively simple “yes/no” questions');
+
+INSERT INTO presentation VALUES
+('006','computer programming',to_date('2015/07/10','YYYY/MM/DD'),'12:00','Computer programming (often shortened to programming, sometimes called coding) is a process that leads from an original formulation of a computing problem to executable computer programs.');
+
+
+INSERT INTO report VALUES
+(to_date('2014/09/17','YYYY/MM/DD'),to_date('2014/11/22','YYYY/MM/DD'),'A database is an organized collection of data.[1] It is the collection of schemas, tables, queries, reports, views and other objects.The data is typically organized to model aspects of reality in a way that supports processes requiring information,such as modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.','001','1');
+INSERT INTO report VALUES
+(to_date('2014/10/01','YYYY/MM/DD'),to_date('2014/11/22','YYYY/MM/DD'),'A database is an organized collection of data.[1] It is the collection of schemas, tables, queries, reports, views and other objects.The data is typically organized to model aspects of reality in a way that supports processes requiring information,such as modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.','001','2');
+INSERT INTO report VALUES
+(to_date('2014/08/17','YYYY/MM/DD'),to_date('2014/09/22','YYYY/MM/DD'),'A database is an organized collection of data.[1] It is the collection of schemas, tables, queries, reports, views and other objects.The data is typically organized to model aspects of reality in a way that supports processes requiring information,such as modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.','001','3');
+
+INSERT INTO report VALUES
+(to_date('2015/11/03','YYYY/MM/DD'),to_date('2015/11/25','YYYY/MM/DD'),'An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs.The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function.','002','7');
+
+INSERT INTO report VALUES
+(to_date('2015/01/19','YYYY/MM/DD'),to_date('2015/11/02','YYYY/MM/DD'),'In computer science, the analysis of algorithms is the determination of the amount of resources (such as time and storage)necessary to execute them. Most algorithms are designed to work with inputs of arbitrary length.Usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity)or storage locations (space complexity).','003','1');
+INSERT INTO report VALUES
+(to_date('2015/02/19','YYYY/MM/DD'),to_date('2015/07/02','YYYY/MM/DD'),'In computer science, the analysis of algorithms is the determination of the amount of resources (such as time and storage)necessary to execute them. Most algorithms are designed to work with inputs of arbitrary length.Usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity)or storage locations (space complexity).','003','2');
+
+INSERT INTO report VALUES
+(to_date('2014/06/19','YYYY/MM/DD'),to_date('2014/10/02','YYYY/MM/DD'),'In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity.In comparison, a data structure is a concrete implementation of the contract provided by an ADT.','004','1');
+INSERT INTO report VALUES
+(to_date('2014/11/19','YYYY/MM/DD'),to_date('2014/12/02','YYYY/MM/DD'),'In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity.In comparison, a data structure is a concrete implementation of the contract provided by an ADT.','004','2');
+INSERT INTO report VALUES
+(to_date('2014/08/19','YYYY/MM/DD'),to_date('2014/08/30','YYYY/MM/DD'),'In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity.In comparison, a data structure is a concrete implementation of the contract provided by an ADT.','004','3');
+INSERT INTO report VALUES
+(to_date('2015/10/19','YYYY/MM/DD'),to_date('2015/10/29','YYYY/MM/DD'),'In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity.In comparison, a data structure is a concrete implementation of the contract provided by an ADT.','004','4');
+
+INSERT INTO report VALUES
+(to_date('2015/10/29','YYYY/MM/DD'),to_date('2015/12/20','YYYY/MM/DD'),'type it fast without thinking deeply about it.U can then comment about how funny, strange, any adjective u can think about the random statements the other posters typed.','005','5');
+
+INSERT INTO report VALUES
+(to_date('2015/10/29','YYYY/MM/DD'),to_date('2015/11/20','YYYY/MM/DD'),'type it fast without thinking deeply about it.U can then comment about how funny, strange, any adjective u can think about the random statements the other posters typed.','006','10');
+
+
+
+
+INSERT INTO attribute_mark VALUES
+('2182492740','001','70');
+INSERT INTO attribute_mark VALUES
+('2156437878','001','74');
+INSERT INTO attribute_mark VALUES
+('2109985482','001','68');
+
+INSERT INTO attribute_mark VALUES
+('2182492740','002','85');
+INSERT INTO attribute_mark VALUES
+('2156437878','002','90');
+INSERT INTO attribute_mark VALUES
+('2109985482','002','81');
+
+INSERT INTO attribute_mark VALUES
+('2182492740','003','76');
+INSERT INTO attribute_mark VALUES
+('2156437878','003','80');
+INSERT INTO attribute_mark VALUES
+('2109985482','003','77');
+
+INSERT INTO attribute_mark VALUES
+('2182492740','006','88');
+INSERT INTO attribute_mark VALUES
+('2156437878','006','85');
+INSERT INTO attribute_mark VALUES
+('2109985482','006','86');
+
+
+INSERT INTO choose VALUES
+('4348932345','004','1');
+INSERT INTO choose VALUES
+('4348932345','001','3');
+INSERT INTO choose VALUES
+('4348932345','003','2');
+
+
+INSERT INTO choose VALUES
+('4354389068','002','1');
+INSERT INTO choose VALUES
+('4354389068','003','4');
+INSERT INTO choose VALUES
+('4354389068','001','2');
+INSERT INTO choose VALUES
+('4354389068','005','3');
+INSERT INTO choose VALUES
+('4354389068','004','5');
+
+INSERT INTO choose VALUES
+('4321469059','002','1');
+INSERT INTO choose VALUES
+('4321469059','003','2');
+INSERT INTO choose VALUES
+('4321469059','001','3');
+INSERT INTO choose VALUES
+('4321469059','005','4');
+INSERT INTO choose VALUES
+('4321469059','004','5');
+
+
+
+
+INSERT INTO keyword VALUES
+('RTE','CS');
+INSERT INTO keyword VALUES
+('SBI','CS');
+INSERT INTO keyword VALUES
+('MTT','CS');
+
+
+
+INSERT INTO specified VALUES
+('001','RTE');
+INSERT INTO specified VALUES
+('002','SBI');
+INSERT INTO specified VALUES
+('003','MTT');
+INSERT INTO specified VALUES
+('004','SBI');
+INSERT INTO specified VALUES
+('005','MTT');
+INSERT INTO specified VALUES
+('006','MTT');
+
+
+INSERT INTO meeting_remark VALUES
+('10','001','4348932345','2182492740','50.25');
+INSERT INTO meeting_remark VALUES
+('8','002','4354389068','2156437878','70.50');
+INSERT INTO meeting_remark VALUES
+('5','003','4321469059','2109985482','80.00');
+INSERT INTO meeting_remark VALUES
+('3','006','4394467321','2182492740','79.50');
+
+
+
+
+INSERT INTO meet VALUES
+('10','001','4348932345','2182492740','we did some tasks and there is left tasks',to_date('2015/07/02','YYYY/MM/DD'),'12:00');
+INSERT INTO meet VALUES
+('8','002','4354389068','2156437878','we need two more meeting to finish',to_date('2015/07/07','YYYY/MM/DD'),'10:15');
+INSERT INTO meet VALUES
+('5','003','4321469059','2109985482','we have some issues and we need to rewrite some information',to_date('2015/07/16','YYYY/MM/DD'),'07:00');
+INSERT INTO meet VALUES
+('3','006','4394467321','2182492740','we did some tasks and there is left tasks',to_date('2015/07/16','YYYY/MM/DD'),'09:00');
+
+
+
+
